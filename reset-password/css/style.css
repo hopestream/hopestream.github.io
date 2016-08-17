@@ -1,0 +1,93 @@
+html {
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #292929;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to top, #141414, #3D3D3D);
+    background: -moz-linear-gradient( to top, #141414, #3D3D3D);
+    background: -ms-linear-gradient( to top, #141414, #3D3D3D);
+    background: -o-linear-gradient( to top, #141414, #3D3D3D);
+    background: linear-gradient( to top, #141414, #3D3D3D);
+}
+body {
+    font-family: 'gravity', sans-serif;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.message {
+    max-width: 400px;
+}
+.reset-form {
+    max-width: 400px;
+}
+.reset-form input.form-control {
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-style: none;
+    margin-bottom: 8px;
+}
+input.form-control {
+    border-radius: 6px;
+    height: 44px;
+    font-size: 17px;
+}
+.btn, .btn:hover, .btn:active, .btn:focus, .btn:active:focus, .btn[disabled], .btn[disabled]:hover {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    background: transparent;
+    font-weight: 600;
+    transition: none;
+    border-radius: 6px;
+    height: 44px;
+    font-size: 17px;
+}
+.btn:hover, .btn:active:focus {
+    border-color: #34D2FF;
+}
+.btn[disabled], .btn[disabled]:hover {
+    background-color: transparent;
+}
+
+img {
+    max-height: 160px;
+}
+
+.color-blue { color: #34D2FF; }
+.color-red { color: #FF2D52; }
+.color-yellow { color: #FFD02D; }
+.color-white { color: hsl(0, 0%, 100%); }
+.color-lightest-gray { color: hsl(0, 0%, 98%); }
+.color-lighter-gray { color: hsl(0, 0%, 93%); }
+.color-light-gray { color: hsl(0, 0%, 60%); }
+.color-gray { color: hsl(0, 0%, 33%); }
+.color-dark-gray { color: hsl(0, 0%, 20%); }
+.color-darker-gray { color: hsl(0, 0%, 16%); }
+.font-light { font-weight: 200; }
+.font-regular { font-weight: 400; }
+.font-bold { font-weight: 600; }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none;
+  outline: 0 none;
+}
