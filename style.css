@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fdfdfd;
+    font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #33beff;
+    padding: 6px 20px;
+}
+.button:hover {
+    background-color: #00aeff;
+}
+iframe, h2, .section.with-image div div {
+    margin-bottom: 16px;
+}
+.spacer {
+    height: 32px;
+}
+
+.section {
+    display: flex;
+    padding: 48px max(16px, calc((100vw - 960px) / 2));
+}
+.section.header {
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #333333;
+}
+
+.section.with-image img {
+    width: 548px;
+}
+.section.with-image .image {
+    flex: 0 0 auto;
+}
+.section.with-image .image:first-child {
+    margin-right: 24px;
+}
+.section.with-image .image:last-child {
+    margin-left: 24px;
+}
+
+.section.sell {
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e6e6;
+}
+.plans-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+.plans-container .plan {
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 4px 18px;
+}
+.plans-container .plan:nth-child(2) {
+    margin: 0px 24px;
+}
+.plans-container .plan > div:first-child {
+    font-size: 24px;
+    font-weight: 800;
+}
+.plans-container b {
+    font-weight: 800;
+}
+
+.section.black {
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+}
+.river-valley {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.river-valley > div {
+    flex: 0 0 auto;
+    font-size: 18px;
+    width: 312px;
+    margin-right: 18px;
+}
+.river-valley img {
+    width: 170px;
+}
+
+.section.footer {
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #333333;
+}
+.section.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+.section.footer .copyright {
+    color: #8a8a8a;
+}
+
+.section.policy {
+    flex-direction: column;
+}
+.section.policy h2 {
+    margin-bottom: 0;
+}
+.section.policy div {
+    margin-bottom: 24px;
+}
